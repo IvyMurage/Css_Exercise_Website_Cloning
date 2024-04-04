@@ -15,7 +15,7 @@
     <main class="h-screen box-border">
       <div class="h-full">
         <header
-          class="w-full bg-white flex justify-between items-center my-[12px] mx-[0] pr-[8px] py-[0] pl-[24px]"
+          class="text-[12px] w-full bg-white flex justify-between items-center my-[12px] mx-[0] pr-[8px] py-[10px] pl-[24px]"
         >
           <div>
             <a href="#"
@@ -48,58 +48,62 @@
           </nav>
         </header>
         <div
-          class="flex justify-center items-center flex-col bg-no-repeat bg-center bg-[url(https://forever.travel-assets.com/flex/flexmanager/images/2022/08/02/2022-06-05_Vrbo_APFT2_Barcelona_Therin_House_2_4605_2.png)] h-[100%] bg-cover"
+          class="relative flex justify-center items-center flex-col bg-no-repeat bg-center bg-[url(https://forever.travel-assets.com/flex/flexmanager/images/2022/08/02/2022-06-05_Vrbo_APFT2_Barcelona_Therin_House_2_4605_2.png)] h-[100%] bg-cover"
         >
-          <div class="w-[100%] px-[100px] container">
-            <h1 class="text-[56px] text-white m-auto">
-              Find your place for each other
-            </h1>
-            <div class="flex items-center m-auto">
-              <form class="flex bg-white items-center p-[8px] rounded-xl">
-                <div class="relative px-[10px]">
-                  <div class="absolute top-[26%] left-[20px]">
-                    <i class="fa-solid fa-location-dot"></i>
+          <div
+            class="px-[100px] m-auto flex items-center bg-black bg-opacity-50 w-full h-full"
+          >
+            <div class="container">
+              <h1 class="text-[56px] text-white m-auto">
+                Find your place for each other
+              </h1>
+              <div class="flex items-center m-auto">
+                <form class="flex bg-white items-center p-[8px] rounded-xl">
+                  <div class="relative px-[10px]">
+                    <div class="absolute top-[26%] left-[20px]">
+                      <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <input
+                      class="border-[0.5px] border-solid border-gray-600 w-[100%] rounded-lg px-[40px] py-[12px]"
+                      type="text"
+                      id="location"
+                      name="location"
+                      placeholder="holiday destination"
+                    />
                   </div>
-                  <input
-                    class="border-[0.5px] border-solid border-gray-600 w-[100%] rounded-lg px-[40px] py-[12px]"
-                    type="text"
-                    id="location"
-                    name="location"
-                    placeholder="holiday destination"
-                  />
-                </div>
-                <div class="px-[10px] relative">
-                  <div class="absolute top-[26%] left-[20px]">
-                    <i class="fa-solid fa-calendar"></i>
+                  <div class="px-[10px] relative">
+                    <div class="absolute top-[26%] left-[20px]">
+                      <i class="fa-solid fa-calendar"></i>
+                    </div>
+                    <input
+                      class="border-[0.5px] border-solid border-gray-600 w-[100%] rounded-lg px-[40px] py-[12px]"
+                      id="check-in"
+                      name="check-in"
+                      placeholder="Date"
+                    />
                   </div>
-                  <input
-                    class="border-[0.5px] border-solid border-gray-600 w-[100%] rounded-lg px-[40px] py-[12px]"
-                    id="check-in"
-                    name="check-in"
-                    placeholder="Date"
-                  />
-                </div>
-                <div class="relative px-[10px]">
-                  <div class="absolute top-[26%] left-[20px]">
-                    <i class="fa-solid fa-user"></i>
+                  <div class="relative px-[10px]">
+                    <div class="absolute top-[26%] left-[20px]">
+                      <i class="fa-solid fa-user"></i>
+                    </div>
+
+                    <input
+                      class="border-[0.5px] border-solid border-gray-600 w-[100%] rounded-lg px-[40px] py-[12px]"
+                      type="number"
+                      id="people"
+                      name="people"
+                      placeholder="2 travelers"
+                    />
                   </div>
 
-                  <input
-                    class="border-[0.5px] border-solid border-gray-600 w-[100%] rounded-lg px-[40px] py-[12px]"
-                    type="number"
-                    id="people"
-                    name="people"
-                    placeholder="2 travelers"
-                  />
-                </div>
-
-                <button
-                  class="bg-blue-900 px-[12px] py-[16px] rounded-[40%]"
-                  type="submit"
-                >
-                  seek
-                </button>
-              </form>
+                  <button
+                    class="bg-blue-900 px-[12px] py-[16px] rounded-[40%]"
+                    type="submit"
+                  >
+                    seek
+                  </button>
+                </form>
+              </div>
             </div>
           </div>
         </div>
@@ -198,22 +202,26 @@
       </div>
 
       <div
-        class="rounded-[16px] px-[48px] flex items-center container mt-16 m-auto bg-[url(https://a.travel-assets.com/travel-assets-manager/vrbex-onekey/DE-Hero-Image_Balje.jpg?impolicy=fcrop&w=1400&h=600&q=mediumHigh)] bg-cover bg-no-repeat bg-center max-h-[500px] h-[100%]"
+        class="rounded-[16px] flex items-center container mt-16 m-auto bg-[url(https://a.travel-assets.com/travel-assets-manager/vrbex-onekey/DE-Hero-Image_Balje.jpg?impolicy=fcrop&w=1400&h=600&q=mediumHigh)] bg-cover bg-no-repeat bg-center max-h-[500px] h-[100%]"
       >
-        <div class="text-white">
-          <h2 class="text-[40px] font-semibold">
-            Holiday homes of <br />
-            the year 2024
-          </h2>
-          <p class="text-sm w-[300px]">
-            These exceptional accommodations offer unforgettable stays for
-            families and groups.
-          </p>
-          <button
-            class="px-[20px] py-[10px] bg-blue-800 rounded-[20px] text-[14px] mt-[15px]"
-          >
-            Discover holiday homes
-          </button>
+        <div
+          class="m-auto flex max-h-[500px] rounded-[16px] px-[48px] items-center bg-black bg-opacity-50 w-full h-full"
+        >
+          <div class="text-white">
+            <h2 class="text-[40px] font-semibold">
+              Holiday homes of <br />
+              the year 2024
+            </h2>
+            <p class="text-sm w-[300px]">
+              These exceptional accommodations offer unforgettable stays for
+              families and groups.
+            </p>
+            <button
+              class="px-[20px] py-[10px] bg-blue-800 rounded-[20px] text-[14px] mt-[15px]"
+            >
+              Discover holiday homes
+            </button>
+          </div>
         </div>
       </div>
     </main>

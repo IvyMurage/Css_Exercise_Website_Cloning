@@ -681,6 +681,18 @@ video {
   isolation: auto;
 }
 
+.z-0{
+  z-index: 0;
+}
+
+.z-\[-1\]{
+  z-index: -1;
+}
+
+.z-\[0\]{
+  z-index: 0;
+}
+
 .float-start{
   float: inline-start;
 }
@@ -873,6 +885,10 @@ video {
 
 .h-screen{
   height: 100vh;
+}
+
+.h-\[60px\]{
+  height: 60px;
 }
 
 .max-h-\[100\%\]{
@@ -1869,6 +1885,10 @@ video {
   border-width: 0.5px;
 }
 
+.border-2{
+  border-width: 2px;
+}
+
 .border-x{
   border-left-width: 1px;
   border-right-width: 1px;
@@ -1950,6 +1970,15 @@ video {
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-black{
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.bg-opacity-50{
+  --tw-bg-opacity: 0.5;
 }
 
 .bg-\[url\(https\:\/\/a\.travel-assets\.com\/travel-assets-manager\/vrbex-onekey\/DE-Hero-Image_Balje\.jpg\?impolicy\=fcrop\&w\=1400\&h\=600\&q\=mediumHigh\)\]{
@@ -2166,6 +2195,11 @@ video {
   padding-bottom: 4px;
 }
 
+.py-\[20px\]{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 .pl-\[24px\]{
   padding-left: 24px;
 }
@@ -2257,6 +2291,10 @@ video {
 .text-sm{
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.text-\[12px\]{
+  font-size: 12px;
 }
 
 .font-bold{
@@ -2580,6 +2618,11 @@ video {
 
 .blur{
   --tw-blur: blur(8px);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.brightness-50{
+  --tw-brightness: brightness(.5);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
