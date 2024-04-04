@@ -760,6 +760,10 @@ video {
   margin-top: 15px;
 }
 
+.mt-4{
+  margin-top: 1rem;
+}
+
 .box-border{
   box-sizing: border-box;
 }
@@ -883,12 +887,37 @@ video {
   height: 100vh;
 }
 
+.h-\[20\%\]{
+  height: 20%;
+}
+
+.h-\[400px\]{
+  height: 400px;
+}
+
+.h-fit{
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.h-\[500px\]{
+  height: 500px;
+}
+
 .max-h-\[100\%\]{
   max-height: 100%;
 }
 
 .max-h-\[500px\]{
   max-height: 500px;
+}
+
+.max-h-\[50\%\]{
+  max-height: 50%;
+}
+
+.max-h-\[400px\]{
+  max-height: 400px;
 }
 
 .w-\[100\%\]{
@@ -921,6 +950,27 @@ video {
 
 .w-full{
   width: 100%;
+}
+
+.w-fit{
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.w-\[20\%\]{
+  width: 20%;
+}
+
+.w-\[30\%\]{
+  width: 30%;
+}
+
+.w-\[40\%\]{
+  width: 40%;
+}
+
+.w-\[32\%\]{
+  width: 32%;
 }
 
 .max-w-\[100\%\]{
@@ -1897,6 +1947,10 @@ video {
   border-width: 0.5px;
 }
 
+.border-2{
+  border-width: 2px;
+}
+
 .border-x{
   border-left-width: 1px;
   border-right-width: 1px;
@@ -1985,6 +2039,16 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-blue-700{
+  --tw-bg-opacity: 1;
+  background-color: rgb(29 78 216 / var(--tw-bg-opacity));
+}
+
+.bg-blue-950{
+  --tw-bg-opacity: 1;
+  background-color: rgb(23 37 84 / var(--tw-bg-opacity));
+}
+
 .bg-opacity-50{
   --tw-bg-opacity: 0.5;
 }
@@ -2011,6 +2075,10 @@ video {
 
 .bg-\[url\(https\:\/\/forever\.travel-assets\.com\/flex\/flexmanager\/images\/2022\/11\/04\/house\.jpeg\?impolicy\=fcrop\&w\=600\&h\=450\&q\=mediumHigh\)\]{
   background-image: url(https://forever.travel-assets.com/flex/flexmanager/images/2022/11/04/house.jpeg?impolicy=fcrop&w=600&h=450&q=mediumHigh);
+}
+
+.bg-\[url\(https\:\/\/forever\.travel-assets\.com\/flex\/flexmanager\/images\/2022\/09\/06\/vrbo_lyp-large\.jpg\)\]{
+  background-image: url(https://forever.travel-assets.com/flex/flexmanager/images/2022/09/06/vrbo_lyp-large.jpg);
 }
 
 .decoration-slice{
@@ -2151,6 +2219,14 @@ video {
   padding: 8px;
 }
 
+.p-\[20px\]{
+  padding: 20px;
+}
+
+.p-\[48px\]{
+  padding: 48px;
+}
+
 .px-\[100px\]{
   padding-left: 100px;
   padding-right: 100px;
@@ -2204,6 +2280,26 @@ video {
 .py-\[4px\]{
   padding-top: 4px;
   padding-bottom: 4px;
+}
+
+.py-\[30px\]{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.py-\[50px\]{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.py-\[20px\]{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.px-\[30px\]{
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .pl-\[24px\]{
@@ -2393,6 +2489,10 @@ video {
 
 .tracking-wide{
   letter-spacing: 0.025em;
+}
+
+.tracking-wider{
+  letter-spacing: 0.05em;
 }
 
 .text-\[\#336699\]\/\[\.35\]{
