@@ -1,11 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./dist/output.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
     <title>Document</title>
-</head>
-<body>
-    Website Cloning
-</body>
+  </head>
+  <body>
+    <div class="h-full">
+      <header
+        class="w-full bg-white flex justify-between items-center my-[12px] mx-[0] pr-[8px] py-[0] pl-[24px]"
+      >
+        <div>
+          <a href="#"
+            ><img
+              src="https://www.fewo-direkt.de/_dms/header/logo.svg"
+              alt="logo"
+          /></a>
+        </div>
+        <nav class="max-w-[80%]">
+          <ul class="flex list-none justify-between">
+            <li>
+              <a
+                class="py-[4px] px-[16px] border-1 border-solid border-black"
+                href="#"
+              >
+                <i class="fa-solid fa-arrow-down"></i>
+                app
+              </a>
+            </li>
+            <li><a class="py-[4px] px-[16px]" href="#">Trip Planner</a></li>
+            <li>
+              <a class="py-[4px] px-[16px]" href="#">Register accommodation</a>
+            </li>
+            <li><a class="py-[4px] px-[16px]" href="#">Help</a></li>
+            <li><a class="py-[4px] px-[16px]" href="#">My Journeys</a></li>
+            <li><a class="py-[4px] px-[16px]" href="#">Register</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div
+        class="bg-[url(https://forever.travel-assets.com/flex/flexmanager/images/2022/08/02/2022-06-05_Vrbo_APFT2_Barcelona_Therin_House_2_4605_2.png)] h-full bg-cover"
+      >
+        <h1>Find your place for each other</h1>
+        <div>
+          <section>
+            <form>
+              <div class="form-group">
+                <label for="location">Location</label>
+                <input type="text" id="location" name="location" />
+              </div>
+              <div class="form-group">
+                <label for="check-in">Date</label>
+                <input type="date" id="check-in" name="check-in" />
+              </div>
+              <div class="form-group">
+                <div>
+                  <span>Gaste</span>
+                  <label for="check-in">People</label>
+                </div>
+                <input type="date" id="check-in" name="check-in" />
+              </div>
+
+              <button type="submit">Submit</button>
+            </form>
+          </section>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
