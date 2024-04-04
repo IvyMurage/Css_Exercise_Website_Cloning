@@ -754,6 +754,18 @@ video {
   margin-top: 0.5rem;
 }
 
+.mr-1 {
+  margin-right: 0.25rem;
+}
+
+.mr-\[20px\] {
+  margin-right: 20px;
+}
+
+.mt-\[15px\] {
+  margin-top: 15px;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -869,8 +881,24 @@ video {
   height: 100vh;
 }
 
+.h-\[80\%\] {
+  height: 80%;
+}
+
 .max-h-\[100\%\] {
   max-height: 100%;
+}
+
+.max-h-\[600px\] {
+  max-height: 600px;
+}
+
+.max-h-\[200px\] {
+  max-height: 200px;
+}
+
+.max-h-\[500px\] {
+  max-height: 500px;
 }
 
 .w-\[100\%\] {
@@ -895,6 +923,26 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-\[100px\] {
+  width: 100px;
+}
+
+.w-\[120px\] {
+  width: 120px;
+}
+
+.w-\[150px\] {
+  width: 150px;
+}
+
+.w-\[200px\] {
+  width: 200px;
+}
+
+.w-\[300px\] {
+  width: 300px;
 }
 
 .max-w-\[100\%\] {
@@ -1249,6 +1297,14 @@ video {
 
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.grid-rows-3 {
+  grid-template-rows: repeat(3, minmax(0, 1fr));
 }
 
 .flex-row {
@@ -1781,6 +1837,14 @@ video {
   border-radius: 0.75rem;
 }
 
+.rounded-\[16px\] {
+  border-radius: 16px;
+}
+
+.rounded-\[20px\] {
+  border-radius: 20px;
+}
+
 .rounded-b {
   border-bottom-right-radius: 0.25rem;
   border-bottom-left-radius: 0.25rem;
@@ -1853,6 +1917,10 @@ video {
 
 .border-2 {
   border-width: 2px;
+}
+
+.border-4 {
+  border-width: 4px;
 }
 
 .border-x {
@@ -1933,6 +2001,11 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-blue-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 64 175 / var(--tw-bg-opacity));
+}
+
 .bg-\[url\(https\:\/\/forever\.travel-assets\.com\/flex\/flexmanager\/images\/2022\/05\/25\/cabin\.jpg\?impolicy\=fcrop\&w\=600\&h\=450\&q\=mediumHigh\)\] {
   background-image: url(https://forever.travel-assets.com/flex/flexmanager/images/2022/05/25/cabin.jpg?impolicy=fcrop&w=600&h=450&q=mediumHigh);
 }
@@ -1951,6 +2024,10 @@ video {
 
 .bg-\[url\(https\:\/\/forever\.travel-assets\.com\/flex\/flexmanager\/images\/2022\/11\/04\/house\.jpeg\?impolicy\=fcrop\&w\=600\&h\=450\&q\=mediumHigh\)\] {
   background-image: url(https://forever.travel-assets.com/flex/flexmanager/images/2022/11/04/house.jpeg?impolicy=fcrop&w=600&h=450&q=mediumHigh);
+}
+
+.bg-\[url\(https\:\/\/a\.travel-assets\.com\/travel-assets-manager\/vrbex-onekey\/DE-Hero-Image_Balje\.jpg\?impolicy\=fcrop\&w\=1400\&h\=600\&q\=mediumHigh\)\] {
+  background-image: url(https://a.travel-assets.com/travel-assets-manager/vrbex-onekey/DE-Hero-Image_Balje.jpg?impolicy=fcrop&w=1400&h=600&q=mediumHigh);
 }
 
 .decoration-slice {
@@ -2083,6 +2160,22 @@ video {
   padding: 12px;
 }
 
+.p-\[30px\] {
+  padding: 30px;
+}
+
+.p-\[50px\] {
+  padding: 50px;
+}
+
+.p-\[100px\] {
+  padding: 100px;
+}
+
+.p-\[20px\] {
+  padding: 20px;
+}
+
 .px-\[100px\] {
   padding-left: 100px;
   padding-right: 100px;
@@ -2128,12 +2221,44 @@ video {
   padding-bottom: 4px;
 }
 
+.px-\[48px\] {
+  padding-left: 48px;
+  padding-right: 48px;
+}
+
+.px-\[30px\] {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.px-\[20px\] {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.py-\[10px\] {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 .pl-\[24px\] {
   padding-left: 24px;
 }
 
 .pr-\[8px\] {
   padding-right: 8px;
+}
+
+.pl-\[20px\] {
+  padding-left: 20px;
+}
+
+.pr-\[20px\] {
+  padding-right: 20px;
+}
+
+.pr-\[50px\] {
+  padding-right: 50px;
 }
 
 .text-left {
@@ -2209,8 +2334,20 @@ video {
   line-height: 1.25rem;
 }
 
+.text-\[40px\] {
+  font-size: 40px;
+}
+
+.text-\[14px\] {
+  font-size: 14px;
+}
+
 .font-bold {
   font-weight: 700;
+}
+
+.font-semibold {
+  font-weight: 600;
 }
 
 .uppercase {
