@@ -742,16 +742,16 @@ video {
   margin-bottom: 12px;
 }
 
-.mt-2 {
-  margin-top: 0.5rem;
-}
-
-.mt-\[100px\] {
-  margin-top: 100px;
+.ml-3 {
+  margin-left: 0.75rem;
 }
 
 .mt-16 {
   margin-top: 4rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
 }
 
 .box-border {
@@ -857,6 +857,10 @@ video {
   height: 100%;
 }
 
+.h-\[320px\] {
+  height: 320px;
+}
+
 .h-full {
   height: 100%;
 }
@@ -871,6 +875,10 @@ video {
 
 .w-\[100\%\] {
   width: 100%;
+}
+
+.w-\[320px\] {
+  width: 320px;
 }
 
 .w-\[this-is\\\\\] {
@@ -889,20 +897,16 @@ video {
   width: 100%;
 }
 
-.w-\[350px\] {
-  width: 350px;
-}
-
 .max-w-\[100\%\] {
   max-width: 100%;
 }
 
-.max-w-\[80\%\] {
-  max-width: 80%;
+.max-w-\[320px\] {
+  max-width: 320px;
 }
 
-.max-w-full {
-  max-width: 100%;
+.max-w-\[80\%\] {
+  max-width: 80%;
 }
 
 .flex-shrink {
@@ -1243,6 +1247,10 @@ video {
   grid-auto-flow: column dense;
 }
 
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
 .flex-row {
   flex-direction: row;
 }
@@ -1425,6 +1433,10 @@ video {
 
 .justify-items-stretch {
   justify-items: stretch;
+}
+
+.gap-2 {
+  gap: 0.5rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -1753,6 +1765,10 @@ video {
   border-radius: 1rem;
 }
 
+.rounded-\[1rem\] {
+  border-radius: 1rem;
+}
+
 .rounded-\[40\%\] {
   border-radius: 40%;
 }
@@ -1835,8 +1851,8 @@ video {
   border-width: 0.5px;
 }
 
-.border-\[1px\] {
-  border-width: 1px;
+.border-2 {
+  border-width: 2px;
 }
 
 .border-x {
@@ -1917,8 +1933,24 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-\[url\(https\:\/\/forever\.travel-assets\.com\/flex\/flexmanager\/images\/2022\/05\/25\/cabin\.jpg\?impolicy\=fcrop\&w\=600\&h\=450\&q\=mediumHigh\)\] {
+  background-image: url(https://forever.travel-assets.com/flex/flexmanager/images/2022/05/25/cabin.jpg?impolicy=fcrop&w=600&h=450&q=mediumHigh);
+}
+
+.bg-\[url\(https\:\/\/forever\.travel-assets\.com\/flex\/flexmanager\/images\/2022\/05\/25\/cottage\.jpg\)\] {
+  background-image: url(https://forever.travel-assets.com/flex/flexmanager/images/2022/05/25/cottage.jpg);
+}
+
 .bg-\[url\(https\:\/\/forever\.travel-assets\.com\/flex\/flexmanager\/images\/2022\/08\/02\/2022-06-05_Vrbo_APFT2_Barcelona_Therin_House_2_4605_2\.png\)\] {
   background-image: url(https://forever.travel-assets.com/flex/flexmanager/images/2022/08/02/2022-06-05_Vrbo_APFT2_Barcelona_Therin_House_2_4605_2.png);
+}
+
+.bg-\[url\(https\:\/\/forever\.travel-assets\.com\/flex\/flexmanager\/images\/2022\/11\/04\/condo\.jpeg\?impolicy\=fcrop\&w\=600\&h\=450\&q\=mediumHigh\)\] {
+  background-image: url(https://forever.travel-assets.com/flex/flexmanager/images/2022/11/04/condo.jpeg?impolicy=fcrop&w=600&h=450&q=mediumHigh);
+}
+
+.bg-\[url\(https\:\/\/forever\.travel-assets\.com\/flex\/flexmanager\/images\/2022\/11\/04\/house\.jpeg\?impolicy\=fcrop\&w\=600\&h\=450\&q\=mediumHigh\)\] {
+  background-image: url(https://forever.travel-assets.com/flex/flexmanager/images/2022/11/04/house.jpeg?impolicy=fcrop&w=600&h=450&q=mediumHigh);
 }
 
 .decoration-slice {
@@ -2039,13 +2071,16 @@ video {
      object-fit: scale-down;
 }
 
+.p-3 {
+  padding: 0.75rem;
+}
+
 .p-\[8px\] {
   padding: 8px;
 }
 
-.px-3 {
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
+.p-\[12px\] {
+  padding: 12px;
 }
 
 .px-\[100px\] {
@@ -2159,6 +2194,10 @@ video {
 
 .text-\[20px\] {
   font-size: 20px;
+}
+
+.text-\[36px\] {
+  font-size: 36px;
 }
 
 .text-\[56px\] {
@@ -2626,6 +2665,15 @@ video {
   forced-color-adjust: none;
 }
 
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
@@ -2697,4 +2745,3 @@ video {
     }
   }
 }
-

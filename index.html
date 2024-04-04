@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./dist/output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
@@ -104,31 +105,97 @@
         </div>
       </div>
 
-
-
       <!-- SECTION -->
-      <div class="container mt-16">
-        <div >
+      <div class="container mt-16 m-auto no-scrollbar overflow-x-auto">
+        <div class="ml-3">
           <h2 class="text-[20px] tracking-wide">Suggestions for you</h2>
           <h2 class="text-[20px] tracking-wide">popular travel destinations</h2>
         </div>
-        <div
-          class="flex overflow-x-auto  space-x-6 w-full "
-        >
+        <div class="grid grid-flow-col gap-2 overflow-x-auto space-x-6 w-full">
           <div
-            class="w-[350px] border-[0.5px] border-gray-600 mx-4 rounded-lg"
+            class="max-w-[320px] w-full border-[0.5px] border-gray-600 mx-4 rounded-[1rem]"
           >
             <img
               src="https://forever.travel-assets.com/flex/flexmanager/images/2022/05/24/chalet.jpg"
               alt="kigali"
-              class="max-w-[100%] object-contain max-h-[100%] rounded-lg"
+              class="max-w-[100%] object-contain max-h-[100%] rounded-[1rem]"
             />
-            <p class="px-3 text-sm">Kigali</p>
+            <p class="p-3 text-sm">Kigali</p>
           </div>
-          
+
+          <div
+            class="max-w-[320px] w-full border-[0.5px] border-gray-600 mx-4 rounded-[1rem]"
+          >
+            <img
+              src="https://forever.travel-assets.com/flex/flexmanager/images/2022/05/24/chalet.jpg"
+              alt="kigali"
+              class="max-w-[100%] object-contain max-h-[100%] rounded-[1rem]"
+            />
+            <p class="p-3 text-sm">Kigali</p>
+          </div>
+
+          <div
+            class="max-w-[320px] w-full border-[0.5px] border-gray-600 mx-4 rounded-[1rem]"
+          >
+            <img
+              src="https://forever.travel-assets.com/flex/flexmanager/images/2022/05/24/chalet.jpg"
+              alt="kigali"
+              class="max-w-[100%] object-contain max-h-[100%] rounded-[1rem]"
+            />
+            <p class="p-3 text-sm">Kigali</p>
+          </div>
+          <div
+            class="max-w-[320px] w-full border-[0.5px] border-gray-600 mx-4 rounded-[1rem]"
+          >
+            <img
+              src="https://forever.travel-assets.com/flex/flexmanager/images/2022/05/24/chalet.jpg"
+              alt="kigali"
+              class="max-w-[100%] object-contain max-h-[100%] rounded-[1rem]"
+            />
+            <p class="p-3 text-sm">Kigali</p>
+          </div>
         </div>
       </div>
 
+      <!-- section 2 -->
+      <div class="container border-2 m-auto mt-16">
+        <h2 class="text-[36px] ml-3">
+          Find accommodation that suits your taste
+        </h2>
+
+        <div
+          class="grid grid-flow-col items-center gap-2 w-full overflow-x-auto"
+        >
+          <div
+            class="flex bg-[url(https://forever.travel-assets.com/flex/flexmanager/images/2022/11/04/house.jpeg?impolicy=fcrop&w=600&h=450&q=mediumHigh)] bg-no-repeat bg-cover w-[320px] h-[320px] rounded-[1rem] mx-4"
+          >
+            <p class="self-end p-[12px] text-white text-[20px] font-bold">
+              Houses
+            </p>
+          </div>
+          <div
+            class="flex bg-[url(https://forever.travel-assets.com/flex/flexmanager/images/2022/11/04/condo.jpeg?impolicy=fcrop&w=600&h=450&q=mediumHigh)] bg-no-repeat bg-cover w-[320px] h-[320px] rounded-[1rem] mx-4"
+          >
+            <p class="self-end p-[12px] text-white text-[20px] font-bold">
+              Apartments
+            </p>
+          </div>
+          <div
+            class="flex bg-[url(https://forever.travel-assets.com/flex/flexmanager/images/2022/05/25/cabin.jpg?impolicy=fcrop&w=600&h=450&q=mediumHigh)] bg-no-repeat bg-cover w-[320px] h-[320px] rounded-[1rem] mx-4"
+          >
+            <p class="self-end p-[12px] text-white text-[20px] font-bold">
+              Holiday Cabin
+            </p>
+          </div>
+          <div
+            class="flex bg-[url(https://forever.travel-assets.com/flex/flexmanager/images/2022/05/25/cottage.jpg)] bg-no-repeat bg-cover w-[320px] h-[320px] rounded-[1rem] mx-4"
+          >
+            <p class="self-end p-[12px] text-white text-[20px] font-bold">
+              Small Country Houses
+            </p>
+          </div>
+        </div>
+      </div>
     </main>
   </body>
 </html>
