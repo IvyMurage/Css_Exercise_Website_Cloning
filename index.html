@@ -11,8 +11,8 @@
     <title>Document</title>
   </head>
   <body>
-    <main>
-      <div class="h-screen">
+    <main class="h-screen box-border">
+      <div class="h-full">
         <header
           class="w-full bg-white flex justify-between items-center my-[12px] mx-[0] pr-[8px] py-[0] pl-[24px]"
         >
@@ -27,11 +27,11 @@
             <ul class="flex list-none justify-between">
               <li>
                 <a
-                  class="py-[4px] px-[16px] border-1 border-solid border-black"
+                  class="py-[4px] px-[16px] border-[0.5px] rounded-2xl border-solid border-gray-600"
                   href="#"
                 >
                   <i class="fa-solid fa-arrow-down"></i>
-                  app
+                  download app
                 </a>
               </li>
               <li><a class="py-[4px] px-[16px]" href="#">Trip Planner</a></li>
@@ -47,20 +47,20 @@
           </nav>
         </header>
         <div
-          class=" flex justify-center items-center flex-col bg-[url(https://forever.travel-assets.com/flex/flexmanager/images/2022/08/02/2022-06-05_Vrbo_APFT2_Barcelona_Therin_House_2_4605_2.png)] h-[100%] bg-cover"
+          class="flex justify-center items-center flex-col bg-no-repeat bg-center bg-[url(https://forever.travel-assets.com/flex/flexmanager/images/2022/08/02/2022-06-05_Vrbo_APFT2_Barcelona_Therin_House_2_4605_2.png)] h-[100%] bg-cover"
         >
-          <div class="w-[100%] px-[100px]">
+          <div class="w-[100%] px-[100px] container">
             <h1 class="text-[56px] text-white m-auto">
               Find your place for each other
             </h1>
             <div class="flex items-center m-auto">
-              <form class="flex bg-white items-center p-[5px] rounded-lg">
+              <form class="flex bg-white items-center p-[8px] rounded-xl">
                 <div class="relative px-[10px]">
                   <div class="absolute top-[26%] left-[20px]">
                     <i class="fa-solid fa-location-dot"></i>
                   </div>
                   <input
-                    class="border-[0.5px] border-solid border-black w-[100%] rounded-lg px-[40px] py-[12px]"
+                    class="border-[0.5px] border-solid border-gray-600 w-[100%] rounded-lg px-[40px] py-[12px]"
                     type="text"
                     id="location"
                     name="location"
@@ -72,7 +72,7 @@
                     <i class="fa-solid fa-calendar"></i>
                   </div>
                   <input
-                    class="border-[0.5px] border-solid border-black w-[100%] rounded-lg px-[40px] py-[12px]"
+                    class="border-[0.5px] border-solid border-gray-600 w-[100%] rounded-lg px-[40px] py-[12px]"
                     id="check-in"
                     name="check-in"
                     placeholder="Date"
@@ -84,7 +84,7 @@
                   </div>
 
                   <input
-                    class="border-[0.5px] border-solid border-black w-[100%] rounded-lg px-[40px] py-[12px]"
+                    class="border-[0.5px] border-solid border-gray-600 w-[100%] rounded-lg px-[40px] py-[12px]"
                     type="number"
                     id="people"
                     name="people"
@@ -103,6 +103,32 @@
           </div>
         </div>
       </div>
+
+
+
+      <!-- SECTION -->
+      <div class="container mt-16">
+        <div >
+          <h2 class="text-[20px] tracking-wide">Suggestions for you</h2>
+          <h2 class="text-[20px] tracking-wide">popular travel destinations</h2>
+        </div>
+        <div
+          class="flex overflow-x-auto  space-x-6 w-full "
+        >
+          <div
+            class="w-[350px] border-[0.5px] border-gray-600 mx-4 rounded-lg"
+          >
+            <img
+              src="https://forever.travel-assets.com/flex/flexmanager/images/2022/05/24/chalet.jpg"
+              alt="kigali"
+              class="max-w-[100%] object-contain max-h-[100%] rounded-lg"
+            />
+            <p class="px-3 text-sm">Kigali</p>
+          </div>
+          
+        </div>
+      </div>
+
     </main>
   </body>
 </html>
